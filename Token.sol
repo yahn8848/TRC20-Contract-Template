@@ -1,4 +1,4 @@
-// 0.5.1-c8a2
+ // 0.5.1-c8a2
 // Enable optimization
 pragma solidity ^0.5.0;
 
@@ -16,7 +16,7 @@ contract Token is ERC20, ERC20Detailed {
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public ERC20Detailed("YourTokenName", "YTN", 18) {
+    constructor () public ERC20Detailed("Proxi", "CRB", 18) {
         _mint(msg.sender, 10000000000 * (10 ** uint256(decimals())));
     }
 }
